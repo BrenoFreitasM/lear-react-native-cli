@@ -2,20 +2,30 @@ import { ScrollView, Text } from "react-native";
 
 export default function App() {
   return (
-    <ScrollView >
+    <ScrollView
+      alwaysBounceVertical={false}
+    >
       <Text
-        style={{ marginTop: 300, fontSize: 32 }}
+        style={{ marginTop: 300, fontSize: 32, width: 1000 }}
       >
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium voluptates aperiam architecto, porro ea dolore saepe et. Provident molestias fugit obcaecati soluta non, at laborum magnam tempora doloribus, velit dolorum!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium voluptates aperiam architecto, porro ea dolore saepe et. Provident molestias !
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium voluptates aperiam architecto, porro ea dolore saepe et. Provident molestias !
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium voluptates aperiam architecto, porro ea dolore saepe et. Provident molestias !
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium voluptates aperiam architecto, porro ea dolore saepe et. Provident molestias !
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium voluptates aperiam architecto, porro ea dolore saepe et. Provident molestias !
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium voluptates aperiam architecto, porro ea dolore saepe et. Provident molestias !
       </Text>
 
-      <ScrollView horizontal>
-      <Text
-        style={{ fontSize: 32 }}
+      <ScrollView
+        horizontal
+        alwaysBounceHorizontal={false}
       >
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium voluptates aperiam architecto, porro ea dolore saepe et. Provident molestias fugit obcaecati soluta non, at laborum magnam tempora doloribus, velit dolorum!
-      </Text>
-    </ScrollView>
+        <Text
+          style={{ fontSize: 32, width: 1000 }}
+        >
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium voluptates aperiam architecto, porro ea dolore saepe et. Provident molestias !
+        </Text>
+      </ScrollView>
     </ScrollView>
   )
 }
