@@ -1,19 +1,17 @@
-import { Text, View } from "react-native";
+import { ScrollView, Text } from "react-native";
 
 export default function App() {
   return (
-    <View >
+    <ScrollView >
       <Text
         style={{ marginTop: 300, fontSize: 32 }}
-        selectable
-        selectionColor="#f00"
-        numberOfLines={1}
-        ellipsizeMode="tail"
-        allowFontScaling={false}
-        maxFontSizeMultiplier={2}
       >
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium voluptates aperiam architecto, porro ea dolore saepe et. Provident molestias fugit obcaecati soluta non, at laborum magnam tempora doloribus, velit dolorum!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium voluptates aperiam architecto, porro ea dolore saepe et. Provident molestias fugit obcaecati soluta non, at laborum magnam tempora doloribus, velit dolorum!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium voluptates aperiam architecto, porro ea dolore saepe et. Provident molestias fugit obcaecati soluta non, at laborum magnam tempora doloribus, velit dolorum!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium voluptates aperiam architecto, porro ea dolore saepe et. Provident molestias fugit obcaecati soluta non, at laborum magnam tempora doloribus, velit dolorum!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium voluptates aperiam architecto, porro ea dolore saepe et. Provident molestias fugit obcaecati soluta non, at laborum magnam tempora doloribus, velit dolorum!
       </Text>
-    </View>
+    </ScrollView>
   )
 }
