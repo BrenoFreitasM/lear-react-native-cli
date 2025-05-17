@@ -9,6 +9,8 @@ export default function App() {
         selectionColor="#f00"
         numberOfLines={1}
         ellipsizeMode="tail"
+        allowFontScaling={false}
+        maxFontSizeMultiplier={2}
       >
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium voluptates aperiam architecto, porro ea dolore saepe et. Provident molestias fugit obcaecati soluta non, at laborum magnam tempora doloribus, velit dolorum!
       </Text>
