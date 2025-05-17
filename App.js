@@ -1,5 +1,15 @@
-import { Text } from "react-native";
+import { Text, View } from "react-native";
 
 export default function App() {
-  return <Text style={{ marginTop: 50 }}>Hello World</Text>;
+  return (
+    <View>
+      <Text
+        style={{ marginTop: 300, fontSize: 32 }}
+        selectable
+        selectionColor="#f00"
+      >
+        {'Oi JsStack!'.slice(0,4)}...
+      </Text>
+    </View>
+  )
 }
