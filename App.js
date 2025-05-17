@@ -2,13 +2,14 @@ import { Text, View } from "react-native";
 
 export default function App() {
   return (
-    <View>
+    <View style={{ width: 200}}>
       <Text
-        style={{ marginTop: 300, fontSize: 32 }}
+        style={{ marginTop: 300, fontSize: 32, width: 100 }}
         selectable
         selectionColor="#f00"
+        numberOfLines={1}
       >
-        {'Oi JsStack!'.slice(0,4)}...
+        Lorem ipsum dolor sit amet consectetur adipisicing .
       </Text>
     </View>
   )
